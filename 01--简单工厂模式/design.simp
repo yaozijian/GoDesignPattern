@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="5.92" multi-file="no">
+  <meta>
+    <name>01--简单工厂模式</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <management>
+    <persons>
+      <person id="P6c247af2dc154fbfbbae579b858a11a7">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <filters />
+  <items>
+    <item id="di934914520709120321" cid="ELEM099" type="group" name="Group" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:42:24">
+      <stereotypes />
+      <tagged-values />
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+    </item>
+  </items>
+  <models>
+    <model id="p951751706891025265" name="Pizza" type="" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>12/04/2016 19:22:09</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p938011570255215064" name="Pizza" order-index="1" show-nullability="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>12/04/2016 19:22:09</creation-date>
+          <change-date>12/04/2016 20:01:44</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="ddip938011570255215064_565173327554212912" cid="GNR002" type="generalization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:33:39">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip938011570255215064_463911682199887540" cid="C001" type="class" name="Pizza" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:23:52">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="od355ecda84b7441eac250addc2cd3c5d91" name="Prepare" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="ofe349e09b33742088c9420e60a6e7e8b343" name="Bake" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o4e593c5fdd6e48f29b086cc776099ba6498" name="Cut" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o06c800b6308f4467959c51bf6549f249482" name="Box" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip938011570255215064_866733598394109148" cid="C002" type="class" name="cheesePizza" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:26:24">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o58f76593c86d437c80a79d76ff8c88bb666" name="Prepare" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o7378aaf3a8d14921ade9138524bc920897" name="Bake" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o9c7966d49f054ead9f204c9d3ff381f363" name="Cut" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o18a03b107e734d8faca97165820a0688576" name="Box" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip938011570255215064_753170171290382940" cid="C004" type="class" name="cheesePizza" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:33:39">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="ob22f7eb3bff745658a726e9933b0037e448" name="Prepare" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o05cbe3d0453e425bb3eb35e34bc45141615" name="Bake" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="oec9958cadbb745cba978b26efa49944c188" name="Cut" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="of4bdd18da6174f4b9e5fd41e54fd1c45793" name="Box" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip938011570255215064_290908215316560420" cid="C003" type="class" name="Pizza" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:32:43">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o8ee67579ae9441d3bd88fa02ab21a516661" name="Prepare" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="ofcfcc04f9fa046339c2c2f874ca09162577" name="Bake" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o7ebc72324a4947a592f73a0d7964c8b2510" name="Cut" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o69665d7df3ba4e4a8cc7c4107081392799" name="Box" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip938011570255215064_646849246623105972" cid="C005" type="class" name="pepperoniPizza" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:34:27">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o9a0edca851cd40f6b9ac8cb019d34f45627" name="Prepare" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o6d183454d6cc47aa912e57fe5d8dc7bb407" name="Bake" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o796d922e37a843b3bffb3e361e3488b428" name="Cut" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o81a995642c4840809cb7b9823a5349e4446" name="Box" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip938011570255215064_846173015319664332" cid="GNR003" type="generalization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:34:27">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip938011570255215064_920782824645786112" cid="C006" type="class" name="veggiePizza" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:35:11">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o5adb74e4b18b4426a7197ab7297389ce75" name="Prepare" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o63914aaba7d74e00808f5c6debc98503365" name="Bake" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o2430f4d1b4d1434ab450a54fb8d4e115377" name="Cut" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o06536fe8f2934282b391bedc4d3c3805561" name="Box" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip938011570255215064_973842382266106234" cid="GNR004" type="generalization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:35:11">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip938011570255215064_399723053584194883" cid="C007" type="class" name="SimplePizzaFactory" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:36:40">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p index="0">
+                      <t />
+                      <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                        <text>
+                          <solid-brush color="#FF000000" />
+                        </text>
+                      </style>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o56455a311fcf4276bf5d89f9202d412485" name="CreatePizza" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="type" type="String" type-id="Uml.String" default-value="" />
+                </parameters>
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content>
+                      <paragraph line-spacing="1">
+                        <p index="0">
+                          <t />
+                          <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                            <text>
+                              <solid-brush color="#FF000000" />
+                            </text>
+                          </style>
+                        </p>
+                      </paragraph>
+                    </content>
+                  </text>
+                </documentation>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                  <source-code language="Cpp" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+          <item id="ddip938011570255215064_549255733822052961" cid="REL001" type="relationship" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:40:43">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <relation from="ddip938011570255215064_399723053584194883" to="ddip938011570255215064_290908215316560420">
+              <start-role id="" name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+              <end-role id="" name="" multiplicity="" navigability="yes" association-type="association" visibility="private" />
+            </relation>
+          </item>
+          <item id="ddip938011570255215064_633043493685021067" cid="C009" type="class" name="Pizza" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:49:15">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content>
+                  <paragraph line-spacing="1">
+                    <p index="0">
+                      <t />
+                      <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                        <text>
+                          <solid-brush color="#FF000000" />
+                        </text>
+                      </style>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o4252eaac388f4756a130eb4792c34296504" name="Prepare" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o1753ca79dd3e4374985bcfc8dd459c35888" name="Bake" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="od3bbcbd3223a4cba9fac863819edb6f341" name="Cut" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="od4c7ff8c0dc5471d9105ad58d7a51ac5387" name="Box" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+          <item id="ddip938011570255215064_121902601418603283" cid="C008" type="class" name="Class8" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:48:40">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip938011570255215064_169889995650134334" cid="PKG004" type="package" name="Package4" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:49:59">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <nestedItems />
+          </item>
+          <item id="ddip938011570255215064_578007112258876293" cid="GNR006" type="generalization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:59:04">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip938011570255215064_405880539315595860" cid="C014" type="class" name="pepperoniPizza" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:59:04">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o56503cd707cc4ee898b6e8d0ce518ce4791" name="Prepare" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o26b95b3cfe85435193d8fbc6b4cae1b7971" name="Bake" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="oaffb34ba7aaa4e44bb1f5b8b9086f3f2968" name="Cut" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o6c459310b7e948b1bbb4ee19aa35debc887" name="Box" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip938011570255215064_574160718112157868" cid="C015" type="class" name="veggiePizza" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:59:44">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o14aa42e6a2744a539d9999155521cecb390" name="Prepare" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o777247d4e24e4bc8b9f4975e379e57b4430" name="Bake" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o36a3bb7f8915409e966e9acae928c097957" name="Cut" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="oed147cee86d34867b365274e16109ac8989" name="Box" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip938011570255215064_299232640955575421" cid="C013" type="class" name="cheesePizza" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:58:05">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="od650b1157b1d444580f4d228f4e78dc3836" name="Prepare" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o3c5cbe25dfe244b582c297df702c0700907" name="Bake" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="ob93e51f4e6de4cd78213602b84f65d93232" name="Cut" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o3556331643bd4eeda4c1011cdcde2a5d699" name="Box" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip938011570255215064_925954494133175063" cid="GNR005" type="generalization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:58:05">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip938011570255215064_980426184999949040" cid="GNR007" type="generalization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 19:59:44">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip938011570255215064_530333789574602751" cid="C016" type="class" name="SimplePizzaFactory" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6c247af2dc154fbfbbae579b858a11a7" creation-date="12/04/2016 20:01:44">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <content>
+                  <p index="0">
+                    <t />
+                    <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                      <text>
+                        <solid-brush color="#FF000000" />
+                      </text>
+                    </style>
+                  </p>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o8c4c29f62d32456594973ac2c3516ae1662" name="CreatePizza" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="type" type="String" type-id="Uml.String" default-value="" />
+                </parameters>
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content>
+                      <p index="0">
+                        <t />
+                        <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </p>
+                    </content>
+                  </text>
+                </documentation>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="ddip938011570255215064_169889995650134334" iid="d6b1fb2160c1402788e3a740f4b7ba65" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/04/2016 19:49:59" order-index="1" type="entity">
+            <layout ax="61" ay="52" awidth="510" aheight="459" x="61" y="52" width="510" height="0" />
+          </item>
+          <item id="ddip938011570255215064_633043493685021067" iid="79faac42d6ff488ba52b34427d84a1ac" container="ddip938011570255215064_169889995650134334" container-iid="d6b1fb2160c1402788e3a740f4b7ba65" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/04/2016 19:49:15" order-index="1" type="entity">
+            <layout ax="321" ay="249" awidth="140" aheight="109" x="321" y="249" width="0" height="109" />
+            <class />
+          </item>
+          <item id="ddip938011570255215064_299232640955575421" iid="de5fabfc8b9b4922bd6c97230728007c" container="ddip938011570255215064_169889995650134334" container-iid="d6b1fb2160c1402788e3a740f4b7ba65" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/04/2016 19:58:05" order-index="5" type="entity">
+            <layout ax="98" ay="400" awidth="140" aheight="97" x="98" y="400" width="0" height="97" />
+            <class />
+          </item>
+          <item id="ddip938011570255215064_925954494133175063" iid="ef213a1ba8ea4abcb800022148e5003b" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/04/2016 19:58:05" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="238" y1="403" x2="321" y2="349" start-border-pos="0.257211901477932" end-border-pos="0.97982060143707">
+              <points>
+                <point x="238" y="403" />
+                <point x="321" y="349" />
+              </points>
+            </layout>
+            <relation from="ddip938011570255215064_299232640955575421" from-iid="de5fabfc8b9b4922bd6c97230728007c" to="ddip938011570255215064_633043493685021067" to-iid="79faac42d6ff488ba52b34427d84a1ac" />
+          </item>
+          <item id="ddip938011570255215064_405880539315595860" iid="030c7b34867143549c5881f56cad1926" container="ddip938011570255215064_169889995650134334" container-iid="d6b1fb2160c1402788e3a740f4b7ba65" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/04/2016 19:59:04" order-index="7" type="entity">
+            <layout ax="259" ay="403" awidth="140" aheight="93" x="259" y="403" width="0" height="93" />
+            <class />
+          </item>
+          <item id="ddip938011570255215064_578007112258876293" iid="ecab07309c374d33a7c9ae838de82e9c" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/04/2016 19:59:04" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="349" y1="403" x2="368" y2="358" start-border-pos="0.16064088003976" end-border-pos="0.584050859723772">
+              <points>
+                <point x="349" y="403" />
+                <point x="368" y="358" />
+              </points>
+            </layout>
+            <relation from="ddip938011570255215064_405880539315595860" from-iid="030c7b34867143549c5881f56cad1926" to="ddip938011570255215064_633043493685021067" to-iid="79faac42d6ff488ba52b34427d84a1ac" />
+          </item>
+          <item id="ddip938011570255215064_574160718112157868" iid="65716492ca2b419ebaed78e280d66316" container="ddip938011570255215064_169889995650134334" container-iid="d6b1fb2160c1402788e3a740f4b7ba65" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/04/2016 19:59:44" order-index="9" type="entity">
+            <layout ax="420" ay="406" awidth="140" aheight="92" x="420" y="406" width="0" height="92" />
+            <class />
+          </item>
+          <item id="ddip938011570255215064_980426184999949040" iid="208800c1cc1e478b881ad8a86f2b5828" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/04/2016 19:59:44" order-index="10" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="459" y1="406" x2="427" y2="358" start-border-pos="0.0700531005859375" end-border-pos="0.689502879551479">
+              <points>
+                <point x="459" y="406" />
+                <point x="427" y="358" />
+              </points>
+            </layout>
+            <relation from="ddip938011570255215064_574160718112157868" from-iid="65716492ca2b419ebaed78e280d66316" to="ddip938011570255215064_633043493685021067" to-iid="79faac42d6ff488ba52b34427d84a1ac" />
+          </item>
+          <item id="ddip938011570255215064_530333789574602751" iid="27cb01f2a3ff4389b991fad1a87ab6f1" container="ddip938011570255215064_169889995650134334" container-iid="d6b1fb2160c1402788e3a740f4b7ba65" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/04/2016 20:01:44" order-index="11" type="entity">
+            <layout ax="65" ay="286" awidth="204" aheight="48" x="65" y="286" width="204" height="48" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
