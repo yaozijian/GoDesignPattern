@@ -7,4 +7,4 @@
 
 # 示例代码的UML类图
 
-![UML类图](https://github.com/yaozijian/GoDesignPattern/01--简单工厂模式/pizza.png)
+![UML类图](http://ohnogfliw.bkt.clouddn.com/go-design-pattern/01/pizza.png)
