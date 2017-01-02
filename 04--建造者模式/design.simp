@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="5.92" multi-file="no">
+  <meta>
+    <name>Builder</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <management>
+    <persons>
+      <person id="P1185e7eafa2443ed8c4b1402e988c30c">
+        <first-name>姚</first-name>
+        <last-name>子建</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Meal" name="Meal" description="" />
+      <type id="MealBuilder" name="MealBuilder" description="" />
+    </custom-types>
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p344225734672753392" name="meal" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>12/26/2016 22:09:51</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p700876617577514002" name="ClassDiagram1" order-index="1" show-nullability="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>12/26/2016 22:09:51</creation-date>
+          <change-date>01/02/2017 17:21:55</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="ddip700876617577514002_418494824324731278" cid="C001" type="class" name="Meal" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="12/26/2016 22:11:10">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o7411eae486ef451784582cf4495af32f882" name="Food" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="obb41c6ad885d4dab8085d582d4f03a7c269" name="Drink" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o9a61f95667c6441ead1cd828f712b5cb126" name="setFood" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="food" type="String" type-id="Uml.String" default-value="" />
+                </parameters>
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="od342408a517247c883ebed47323a110a926" name="setDrink" type="" type-id="" visibility="private" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="drink" type="String" type-id="Uml.String" default-value="" />
+                </parameters>
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content />
+                  </text>
+                </documentation>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip700876617577514002_126601321961440889" cid="C001" type="class" name="MealBuiler" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:05:17">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <tagged-values />
+            <documentation>
+              <text>
+                <content>
+                  <p index="0">
+                    <t />
+                    <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                      <text>
+                        <solid-brush color="#FF000000" />
+                      </text>
+                    </style>
+                  </p>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="of1859de6b70c4ad1a67de219f7f735ff991" name="getMeal" type="Meal" type-id="Meal" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content>
+                      <p index="0">
+                        <t />
+                        <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </p>
+                    </content>
+                  </text>
+                </documentation>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o1763959c091a44af8e6cbf243e03e6b1548" name="buildFood" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o5f3d1db42a99499690ffd94fd6afd033226" name="buildDrink" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+          <item id="ddip700876617577514002_316234922327017011" cid="C002" type="class" name="meal_a" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:06:55">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o54740c81eeda448b9cd7d07f59373cf0860" name="buildFood" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="oe05f35ad5a384548bdb124e955863587932" name="buildDrink" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip700876617577514002_947001074717306916" cid="C002" type="class" name="meal_b" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:06:55">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o54740c81eeda448b9cd7d07f59373cf0860" name="buildFood" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="oe05f35ad5a384548bdb124e955863587932" name="buildDrink" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip700876617577514002_287934398470881634" cid="C003" type="class" name="Waiter" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:08:01">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <content>
+                  <p index="0">
+                    <t />
+                    <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                      <text>
+                        <solid-brush color="#FF000000" />
+                      </text>
+                    </style>
+                  </p>
+                </content>
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o63db649563d349d6bcfb65e67b35a04f884" name="Construct" type="Meal" type-id="Meal" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="builder" type="MealBuilder" type-id="MealBuilder" default-value="" />
+                </parameters>
+                <stereotypes />
+                <documentation>
+                  <text>
+                    <content>
+                      <p index="0">
+                        <t />
+                        <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                          <text>
+                            <solid-brush color="#FF000000" />
+                          </text>
+                        </style>
+                      </p>
+                    </content>
+                  </text>
+                </documentation>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes>
+                <source-code language="ActionScript" />
+              </source-codes>
+            </template-parameters>
+          </item>
+          <item id="ddip700876617577514002_780887833928358933" cid="REA001" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:10:02">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip700876617577514002_227918064629305241" cid="REA002" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:10:18">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip700876617577514002_418774708367246344" cid="DEP001" type="dependency" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:10:35">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip700876617577514002_912839179887135936" cid="DEP002" type="dependency" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:11:38">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip700876617577514002_811574788793456415" cid="C004" type="class" name="meal" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:12:36">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip700876617577514002_811462779483503726" cid="REA003" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:12:59">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip700876617577514002_542004915253888254" cid="PKG001" type="package" name="m" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:14:36">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <nestedItems />
+          </item>
+          <item id="ddip700876617577514002_330398194833766714" cid="C005" type="class" name="Client" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:20:19">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip700876617577514002_195781270128911668" cid="PKG002" type="package" name="main" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:20:44">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <nestedItems />
+          </item>
+          <item id="ddip700876617577514002_213719407468620143" cid="DEP003" type="dependency" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:21:48">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="package" visible="true" enabled="true" locked="false">
+          <item id="ddip700876617577514002_542004915253888254" iid="b0a5453232b6494894cc134934307f56" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:14:36" order-index="10" type="entity">
+            <layout ax="-9" ay="403" awidth="568" aheight="378" x="-9" y="403" width="568" height="378" />
+          </item>
+          <item id="ddip700876617577514002_195781270128911668" iid="bf1a6d21c3da4ff6a2fea9c7ad224cf4" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:20:44" order-index="13" type="entity">
+            <layout ax="-182" ay="409" awidth="157" aheight="96" x="-182" y="409" width="157" height="96" />
+          </item>
+          <item id="ddip700876617577514002_213719407468620143" iid="0f004ac378794d988dc18157fc259470" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:21:48" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="-35" y1="470" x2="151" y2="469" start-border-pos="0.376555100926813" end-border-pos="0.876813154954177">
+              <points>
+                <point x="-35" y="470" />
+                <point x="151" y="469" />
+              </points>
+            </layout>
+            <relation from="ddip700876617577514002_330398194833766714" from-iid="0410dd1f383d4089aad4424084200ed3" to="ddip700876617577514002_287934398470881634" to-iid="8656e90319664aba830ffd1cb5d56954" />
+          </item>
+          <item id="ddip700876617577514002_418494824324731278" iid="822cb4c3de754e2980ece67cf8171342" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="12/26/2016 22:11:10" order-index="0" type="entity">
+            <layout ax="2" ay="552" awidth="253" aheight="107" x="2" y="552" width="253" height="107" />
+            <class />
+          </item>
+          <item id="ddip700876617577514002_126601321961440889" iid="d73fdff7eda648829b590d134ad528db" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:05:17" order-index="1" type="entity">
+            <layout ax="356" ay="561" awidth="140" aheight="96" x="356" y="561" width="0" height="96" />
+            <class />
+          </item>
+          <item id="ddip700876617577514002_316234922327017011" iid="ddec7dbbb3b1476eb21490bd26f96172" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:06:55" order-index="2" type="entity">
+            <layout ax="246" ay="704" awidth="140" aheight="67" x="246" y="704" width="0" height="67" />
+            <class />
+          </item>
+          <item id="ddip700876617577514002_947001074717306916" iid="969f0ec7d12c4381a782f57397c421c7" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:06:55" order-index="2" type="entity">
+            <layout ax="400" ay="704" awidth="140" aheight="67" x="400" y="704" width="0" height="67" />
+            <class />
+          </item>
+          <item id="ddip700876617577514002_287934398470881634" iid="8656e90319664aba830ffd1cb5d56954" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:08:01" order-index="3" type="entity">
+            <layout ax="151" ay="443" awidth="309" aheight="52" x="151" y="443" width="309" height="52" />
+            <class />
+          </item>
+          <item id="ddip700876617577514002_780887833928358933" iid="1cdb480cbcce4c2ebf7a8e5e4342bffe" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:10:02" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="458" y1="704" x2="442" y2="657" start-border-pos="0.104291261945452" end-border-pos="0.654235894339425">
+              <points>
+                <point x="459" y="704" />
+                <point x="442" y="657" />
+              </points>
+            </layout>
+            <relation from="ddip700876617577514002_947001074717306916" from-iid="969f0ec7d12c4381a782f57397c421c7" to="ddip700876617577514002_126601321961440889" to-iid="d73fdff7eda648829b590d134ad528db" />
+          </item>
+          <item id="ddip700876617577514002_227918064629305241" iid="a95973b7c1c9429a86d22636d36119d3" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:10:18" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="345" y1="704" x2="385" y2="657" start-border-pos="0.176771872384208" end-border-pos="0.551910291399275">
+              <points>
+                <point x="344" y="704" />
+                <point x="385" y="657" />
+              </points>
+            </layout>
+            <relation from="ddip700876617577514002_316234922327017011" from-iid="ddec7dbbb3b1476eb21490bd26f96172" to="ddip700876617577514002_126601321961440889" to-iid="d73fdff7eda648829b590d134ad528db" />
+          </item>
+          <item id="ddip700876617577514002_418774708367246344" iid="d3cb841ebf014227a86e7619fb45d76b" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:10:35" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="356" y1="608" x2="255" y2="607" start-border-pos="0.873164812723796" end-border-pos="0.379155381817684">
+              <points>
+                <point x="356" y="608" />
+                <point x="255" y="607" />
+              </points>
+            </layout>
+            <relation from="ddip700876617577514002_126601321961440889" from-iid="d73fdff7eda648829b590d134ad528db" to="ddip700876617577514002_418494824324731278" to-iid="822cb4c3de754e2980ece67cf8171342" />
+          </item>
+          <item id="ddip700876617577514002_912839179887135936" iid="5e4c0a057b444d3489fb2ee6af266a1b" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:11:38" order-index="7" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="328" y1="495" x2="385" y2="561" start-border-pos="0.643435036866024" end-border-pos="0.0515306200299944">
+              <points>
+                <point x="328" y="495" />
+                <point x="385" y="561" />
+              </points>
+            </layout>
+            <relation from="ddip700876617577514002_287934398470881634" from-iid="8656e90319664aba830ffd1cb5d56954" to="ddip700876617577514002_126601321961440889" to-iid="d73fdff7eda648829b590d134ad528db" />
+          </item>
+          <item id="ddip700876617577514002_811574788793456415" iid="3539434299f748a88a9959599a525a0a" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:12:36" order-index="8" type="entity">
+            <layout ax="56" ay="704" awidth="140" aheight="68" x="56" y="704" width="0" height="68" />
+            <class />
+          </item>
+          <item id="ddip700876617577514002_811462779483503726" iid="690ffc51208a4e4b838184263ef9f77e" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:12:59" order-index="9" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="127" y1="704" x2="127" y2="659" start-border-pos="0.125919914245605" end-border-pos="0.623712419050013">
+              <points>
+                <point x="127" y="704" />
+                <point x="127" y="659" />
+              </points>
+            </layout>
+            <relation from="ddip700876617577514002_811574788793456415" from-iid="3539434299f748a88a9959599a525a0a" to="ddip700876617577514002_418494824324731278" to-iid="822cb4c3de754e2980ece67cf8171342" />
+          </item>
+        </layer>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="ddip700876617577514002_330398194833766714" iid="0410dd1f383d4089aad4424084200ed3" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:20:19" order-index="12" type="entity">
+            <layout ax="-175" ay="443" awidth="140" aheight="53" x="-175" y="443" width="0" height="53" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
