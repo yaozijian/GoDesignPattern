@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="5.92" multi-file="no">
+  <meta>
+    <name>Builder</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <management>
+    <persons>
+      <person id="P1185e7eafa2443ed8c4b1402e988c30c">
+        <first-name>姚</first-name>
+        <last-name>子建</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="Meal" name="Meal" description="" />
+      <type id="MealBuilder" name="MealBuilder" description="" />
+      <type id="Robot" name="Robot" description="" />
+    </custom-types>
+  </types>
+  <filters />
+  <items>
+    <item id="ddip700876617577514002_598535327641166376" cid="C002" type="class" name="adaptor" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creation-date="01/02/2017 17:06:55">
+      <stereotypes />
+      <tagged-values />
+      <documentation>
+        <text>
+          <content>
+            <p index="0">
+              <t />
+              <style font-name="Arial" font-size="12" font-bold="false" font-italic="false" font-underline="false" font-strikeout="false">
+                <text>
+                  <solid-brush color="#FF000000" />
+                </text>
+              </style>
+            </p>
+          </content>
+        </text>
+      </documentation>
+      <cooperation>
+        <participants />
+        <comments />
+      </cooperation>
+      <associated-diagrams />
+      <owned-items />
+      <style class="default" />
+      <attributes />
+      <operations />
+      <template-parameters>
+        <source-codes>
+          <source-code language="ActionScript" />
+        </source-codes>
+      </template-parameters>
+    </item>
+  </items>
+  <models>
+    <model id="p344225734672753392" name="adapter" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>12/26/2016 22:09:51</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p700876617577514002" name="robot" order-index="1" show-nullability="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>12/26/2016 22:09:51</creation-date>
+          <change-date>03/05/2017 16:56:55</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="ddip700876617577514002_864161448845080949" cid="DEP001" type="dependency" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="03/05/2017 16:56:35">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip700876617577514002_316234922327017011" cid="C002" type="class" name="Dog" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:06:55">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o54740c81eeda448b9cd7d07f59373cf0860" name="Cry" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="oe05f35ad5a384548bdb124e955863587932" name="Run" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip700876617577514002_947001074717306916" cid="C002" type="class" name="habaDog" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:06:55">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o54740c81eeda448b9cd7d07f59373cf0860" name="Cry" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="oe05f35ad5a384548bdb124e955863587932" name="Run" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip700876617577514002_287934398470881634" cid="C003" type="class" name="Robot" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:08:01">
+            <stereotypes />
+            <tagged-values />
+            <documentation>
+              <text>
+                <content />
+              </text>
+            </documentation>
+            <cooperation>
+              <participants />
+              <comments />
+            </cooperation>
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations>
+              <operation id="o819170ddabe64611ac19d76f55036dbe116" name="Speak" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+              <operation id="o51c9511c0ad5440493e7fb02b66f7ba9160" name="Move" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters />
+                <stereotypes />
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip700876617577514002_780887833928358933" cid="REA001" type="realization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:10:02">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip700876617577514002_114471916758518986" cid="REA002" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="03/05/2017 16:50:00">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip700876617577514002_140938749993872673" cid="REA007" type="realization" name="" style-class="" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="03/05/2017 16:55:37">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="ddip700876617577514002_811574788793456415" cid="C004" type="class" name="bioRobot" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:12:36">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip700876617577514002_542004915253888254" cid="PKG001" type="package" name="m" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:14:36">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <nestedItems />
+          </item>
+          <item id="ddip700876617577514002_330398194833766714" cid="C005" type="class" name="Client" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:20:19">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="ddip700876617577514002_195781270128911668" cid="PKG002" type="package" name="main" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:20:44">
+            <stereotypes />
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <nestedItems />
+          </item>
+          <item id="ddip700876617577514002_213719407468620143" cid="DEP003" type="dependency" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P1185e7eafa2443ed8c4b1402e988c30c" creation-date="01/02/2017 17:21:48">
+            <stereotypes>
+              <stereotype name="use" />
+            </stereotypes>
+            <tagged-values />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="package" visible="true" enabled="true" locked="false">
+          <item id="ddip700876617577514002_542004915253888254" iid="b0a5453232b6494894cc134934307f56" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:14:36" order-index="10" type="entity">
+            <layout ax="42" ay="427" awidth="361" aheight="312" x="42" y="427" width="361" height="312" />
+          </item>
+          <item id="ddip700876617577514002_195781270128911668" iid="bf1a6d21c3da4ff6a2fea9c7ad224cf4" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:20:44" order-index="13" type="entity">
+            <layout ax="-102" ay="429" awidth="125" aheight="96" x="-102" y="429" width="125" height="96" />
+          </item>
+          <item id="ddip700876617577514002_213719407468620143" iid="0f004ac378794d988dc18157fc259470" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:21:48" order-index="14" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="14" y1="491" x2="112" y2="494" start-border-pos="0.384061561440522" end-border-pos="0.866379310344828">
+              <points>
+                <point x="14" y="491" />
+                <point x="112" y="494" />
+              </points>
+            </layout>
+            <relation from="ddip700876617577514002_330398194833766714" from-iid="0410dd1f383d4089aad4424084200ed3" to="ddip700876617577514002_287934398470881634" to-iid="8656e90319664aba830ffd1cb5d56954" />
+          </item>
+          <item id="ddip700876617577514002_316234922327017011" iid="ddec7dbbb3b1476eb21490bd26f96172" container="ddip700876617577514002_542004915253888254" container-iid="b0a5453232b6494894cc134934307f56" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:06:55" order-index="2" type="entity">
+            <layout ax="194" ay="647" awidth="74" aheight="67" x="194" y="647" width="74" height="67" />
+            <class />
+          </item>
+          <item id="ddip700876617577514002_947001074717306916" iid="969f0ec7d12c4381a782f57397c421c7" container="ddip700876617577514002_542004915253888254" container-iid="b0a5453232b6494894cc134934307f56" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:06:55" order-index="2" type="entity">
+            <layout ax="327" ay="650" awidth="71" aheight="67" x="327" y="650" width="71" height="67" />
+            <class />
+          </item>
+          <item id="ddip700876617577514002_287934398470881634" iid="8656e90319664aba830ffd1cb5d56954" container="ddip700876617577514002_542004915253888254" container-iid="b0a5453232b6494894cc134934307f56" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:08:01" order-index="3" type="entity">
+            <layout ax="112" ay="467" awidth="152" aheight="58" x="111" y="460" width="152" height="58" />
+            <class />
+          </item>
+          <item id="ddip700876617577514002_780887833928358933" iid="1cdb480cbcce4c2ebf7a8e5e4342bffe" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:10:02" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="327" y1="683" x2="268" y2="681" start-border-pos="0.872877889604711" end-border-pos="0.377349853515625">
+              <points>
+                <point x="327" y="683" />
+                <point x="268" y="681" />
+              </points>
+            </layout>
+            <relation from="ddip700876617577514002_947001074717306916" from-iid="969f0ec7d12c4381a782f57397c421c7" to="ddip700876617577514002_316234922327017011" to-iid="ddec7dbbb3b1476eb21490bd26f96172" />
+          </item>
+          <item id="ddip700876617577514002_811574788793456415" iid="3539434299f748a88a9959599a525a0a" container="ddip700876617577514002_542004915253888254" container-iid="b0a5453232b6494894cc134934307f56" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:12:36" order-index="8" type="entity">
+            <layout ax="58" ay="558" awidth="79" aheight="49" x="58" y="558" width="79" height="49" />
+            <class />
+          </item>
+          <item id="ddip700876617577514002_114471916758518986" iid="c48c192e1853431693e5468d4fb7bda4" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/05/2017 16:50:00" order-index="15" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="123" y1="558" x2="158" y2="525" start-border-pos="0.206064175955857" end-border-pos="0.575084159248754">
+              <points>
+                <point x="123" y="558" />
+                <point x="158" y="525" />
+              </points>
+            </layout>
+            <relation from="ddip700876617577514002_811574788793456415" from-iid="3539434299f748a88a9959599a525a0a" to="ddip700876617577514002_287934398470881634" to-iid="8656e90319664aba830ffd1cb5d56954" />
+          </item>
+          <item id="ddip700876617577514002_598535327641166376" iid="f062312da6b942af99323243aa23ad02" container="ddip700876617577514002_542004915253888254" container-iid="b0a5453232b6494894cc134934307f56" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:06:55" order-index="2" type="entity">
+            <layout ax="162" ay="565" awidth="140" aheight="46" x="162" y="565" width="0" height="46" />
+            <class />
+          </item>
+          <item id="ddip700876617577514002_140938749993872673" iid="435a1a5a4863417facd7aa9858d7a987" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/05/2017 16:55:37" order-index="17" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="221" y1="565" x2="202" y2="525" start-border-pos="0.105357142857143" end-border-pos="0.647811789261667">
+              <points>
+                <point x="221" y="565" />
+                <point x="202" y="525" />
+              </points>
+            </layout>
+            <relation from="ddip700876617577514002_598535327641166376" from-iid="f062312da6b942af99323243aa23ad02" to="ddip700876617577514002_287934398470881634" to-iid="8656e90319664aba830ffd1cb5d56954" />
+          </item>
+          <item id="ddip700876617577514002_864161448845080949" iid="daa118eefa354a379226dd6e0751f812" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="03/05/2017 16:56:35" order-index="18" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="232" y1="611" x2="231" y2="647" start-border-pos="0.624553571428571" end-border-pos="0.126211784981393">
+              <points>
+                <point x="232" y="611" />
+                <point x="231" y="647" />
+              </points>
+            </layout>
+            <relation from="ddip700876617577514002_598535327641166376" from-iid="f062312da6b942af99323243aa23ad02" to="ddip700876617577514002_316234922327017011" to-iid="ddec7dbbb3b1476eb21490bd26f96172" />
+          </item>
+        </layer>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="ddip700876617577514002_330398194833766714" iid="0410dd1f383d4089aad4424084200ed3" show-cid="false" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" creation-date="01/02/2017 17:20:19" order-index="12" type="entity">
+            <layout ax="-95" ay="463" awidth="109" aheight="53" x="-95" y="463" width="109" height="53" />
+            <class />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
